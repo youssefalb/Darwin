@@ -1,0 +1,13 @@
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/c/Users/youssef albali/CLionProjects/sem 3/Darwin_Project/cmake-build-debug-wsl' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' '/mnt/c/Users/youssef albali/CLionProjects/sem 3/Darwin_Project'; exitcode=$?; sleep 0.001; (exit $exitcode)"
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/c/Users/youssef albali/CLionProjects/sem 3/Darwin_Project/cmake-build-debug-wsl/CMakeFiles/CMakeOutput.log".
+See also "/mnt/c/Users/youssef albali/CLionProjects/sem 3/Darwin_Project/cmake-build-debug-wsl/CMakeFiles/CMakeError.log".
